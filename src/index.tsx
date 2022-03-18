@@ -14,9 +14,9 @@ createServer({
       transactions: [
         {
           id: 1, 
-          title: 'Freelance de website',
+          title: 'Pizza',
           type: 'deposit',
-          category: 'Dev',
+          category: 'Food',
           amount: 6000,
           createdAt: new Date('2021-02-12 09:00:00')
         },
