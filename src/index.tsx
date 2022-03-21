@@ -15,17 +15,17 @@ createServer({
         {
           id: 1, 
           title: 'Pizza',
-          type: 'deposit',
-          category: 'Food',
-          amount: 6000,
+          type: 'withdraw',
+          category: 'iFood',
+          amount: 60,
           createdAt: new Date('2021-02-12 09:00:00')
         },
         {
           id: 2, 
-          title: 'Aluguel',
-          type: 'withdraw',
-          category: 'Casa',
-          amount: 1100,
+          title: 'Website',
+          type: 'deposit',
+          category: 'Freelance',
+          amount: 2500,
           createdAt: new Date('2021-02-14 09:00:00')
         },
       ]
