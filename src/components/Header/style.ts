@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.header`
-    background: var(--gold);
+    background: var(--backs);
 `;
 
 export const Content = styled.div`

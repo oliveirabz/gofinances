@@ -22,9 +22,9 @@ createServer({
         },
         {
           id: 2, 
-          title: 'Website',
+          title: 'Rent',
           type: 'deposit',
-          category: 'Freelance',
+          category: 'Home',
           amount: 2500,
           createdAt: new Date('2021-02-14 09:00:00')
         },
