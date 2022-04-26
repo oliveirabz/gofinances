@@ -90,7 +90,7 @@ export const NewTransactionModal = ({
             activeColor="green"
           >
             <img src={incomeImg} alt="Deposit" />
-            <span>Deposit</span>
+            <span>Income</span>
           </RadioBox>
           <RadioBox
             type="button"
@@ -101,7 +101,7 @@ export const NewTransactionModal = ({
             activeColor="red"
           >
             <img src={outcomeImg} alt="Withdraw" />
-            <span>Withdraw</span>
+            <span>Outcome</span>
           </RadioBox>
         </TransactionTypeContainer>
 

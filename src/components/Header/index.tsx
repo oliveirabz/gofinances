@@ -1,5 +1,5 @@
 // Assets
-// import logoImg from "../../assets/logo.png";
+import logoImg from "../../assets/logo.png";
 
 // Styles
 import { Container, Content } from "./style";
@@ -12,7 +12,7 @@ export const Header = ({ onOpenNewTransactionModal }: HeaderProps) => {
   return (
     <Container>
       <Content>
-        {/* <img src={logoImg} alt="gofinances web" /> */}
+        <img src={logoImg} alt="gofinances web" style={{ width: 200 }} />
         <button type="button" onClick={onOpenNewTransactionModal}>
           New Transaction
         </button>
